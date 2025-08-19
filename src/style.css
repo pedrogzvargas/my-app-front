@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+@plugin "@tailwindcss/forms";
+
+@theme {
+  --font-roboto: 'Roboto', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --color-strong-blue: #4c64cf;
+  --color-medium-blue: #7e8fdd;
+  --color-light-blue: #ebeefa;
+  --color-strong-green: #2ba63b;
+  --color-strong-red: #d65e62;
+}
+
+body {
+  /* @apply bg-red-100; */
+}
+
+@utility btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: red;
+}
